@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Гимбицкий Виталий Владимирович - Магистрант кафедры теории вероятностей и математической статистики
+</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f5f7fa;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            background: linear-gradient(135deg, #2c3e50, #4a6491);
+            color: white;
+            padding: 60px 0;
+            text-align: center;
+            border-radius: 0 0 10px 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+            flex: 1;
+            min-width: 300px;
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        h2 {
+            color: #2c3e50;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #4a6491;
+        }
+
+        .info-item {
+            margin-bottom: 15px;
+        }
+
+        .info-label {
+            font-weight: bold;
+            color: #4a6491;
+        }
+
+        .interests-list {
+            list-style-type: none;
+        }
+
+        .interests-list li {
+            background: #f0f4f8;
+            padding: 10px 15px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            border-left: 4px solid #4a6491;
+        }
+
+        .contacts {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .icon {
+            width: 40px;
+            height: 40px;
+            background: #4a6491;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            padding: 20px;
+            color: #7f8c8d;
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 768px) {
+            .content {
+                flex-direction: column;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Гимбицкий Виталий Владирович</h1>
+            <p class="subtitle">Магистрант кафедры теории вероятностей и математической статистики БГУ ФПМИ
+</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="content">
+            <div class="card">
+                <h2>Образование</h2>
+                <div class="info-item">
+                    <div class="info-label">Учебное заведение:</div>
+                    <div>БГУ ФПМИ</div>
+                </div>
+                <div class="info-item">
+                    <div class="info-label">Степень:</div>
+                    <div>Бакалавр</div>
+                </div>
+                <div class="info-item">
+                    <div class="info-label">Специальность:</div>
+                    <div>Информатика</div>
+                </div>
+                <div class="info-item">
+                    <div class="info-label">Период обучения:</div>
+                    <div>2020 - 2024 г.</div>
+                </div>
+            </div>
+
+            <div class="card">
+                <h2>Научные интересы</h2>
+                <ul class="interests-list">
+                    <li>Машинное обучение</li>
+                    <li>Глубокое обучение</li>
+                    <li>Теория графов</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h2>Контакты</h2>
+                <div class="contacts">
+                    <div class="contact-item">
+                        <div class="icon">📱</div>
+                        <div>Телефон: +375445756278</div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="icon">✉️</div>
+                        <div>Почта: gimbitskyvitaly@gmail.com</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>2025 Гимбицкий Виталий Владирович</p>
+        </div>
+    </footer>
+</body>
+</html>
